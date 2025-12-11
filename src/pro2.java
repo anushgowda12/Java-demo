@@ -5,7 +5,7 @@ public class pro2 {
         String content ="hello word";
         try(FileOutputStream obj=new FileOutputStream("seven.txt"))
         {
-            System.out.println("file is created ");
+            System.out.println("file is created haa a charan  ");
             byte[] bytes=content.getBytes();
             obj.write(bytes);
         }
